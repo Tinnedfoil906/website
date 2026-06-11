@@ -1,20 +1,9 @@
 <html>
 	<body style="margin:0px">
-		<div>
-			<div id='ruffle'></div>
-			<script>
-				window.RufflePlayer = window.RufflePlayer || {};
-				window.RufflePlayer.config = {
-					"warnOnUnsupportedContent": false, 
-					"autoplay": "on", 
-					"unmuteOverlay": "hidden"
-				};
-			</script>
-			<script src='https://unpkg.com/@ruffle-rs/ruffle'></script>
-			<object width="650" height="487.5">    
-				<param name="movie" value="1.swf" />
-				<embed src="1.swf" />
-			</object>
-		</div>
+		<div id='ruffle'></div>
+		<script src='https://unpkg.com/@ruffle-rs/ruffle'></script>
+		<object width="640" height="480">    
+			<param name="movie" value="1.swf" />
+		</object>
 	</body>
 </html>
