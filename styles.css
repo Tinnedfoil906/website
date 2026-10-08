@@ -1,0 +1,33 @@
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:visited {
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: black;
+	background-color: white;
+	text-decoration: underline;
+}
+a:active {
+	color: black;
+	background-color: white;
+	text-decoration: underline;
+}
+
+.special-format {
+	font-family: 'courier new';
+	background-color: black;
+	color: white;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+	align-items: center;
+}
